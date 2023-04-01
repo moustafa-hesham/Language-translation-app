@@ -1,7 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
-import '../models/phrases_model.dart';
+import '../models/ItemModels.dart';
 
 class PhraseUI extends StatelessWidget {
   const PhraseUI({
@@ -10,7 +10,7 @@ class PhraseUI extends StatelessWidget {
     required this.path,
     required this.phrase,
   }) : super(key: key);
-  final ItemsPhrase phrase;
+  final Items phrase;
   final Color color;
   final String path;
   @override

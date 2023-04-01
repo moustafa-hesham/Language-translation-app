@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
 
 import '../components/itemPhraseModel.dart';
-import '../models/phrases_model.dart';
+import '../models/ItemModels.dart';
 
 class PhrasesPage extends StatelessWidget {
   const PhrasesPage({Key? key}) : super(key: key);
-  final List<ItemsPhrase> phraseList = const [
-    ItemsPhrase(
-      sound: 'sound',
+  final List<Items> phraseList = const [
+    Items(
+      sound: '1.wav',
       enName: 'What is your name?',
       jpName: 'Anata no namae wa nan desu ka?',
     ),
-    ItemsPhrase(
-      sound: 'sound',
+    Items(
+      sound: '2.wav',
       enName: 'How old are you?',
       jpName: 'Anata wa nan-sai desu ka?',
     ),
-    ItemsPhrase(
-      sound: 'sound',
+    Items(
+      sound: '3.wav',
       enName: 'What is your favourite food?',
       jpName: 'Anata no suki na tabemono wa nan desu ka?',
     ),
-    ItemsPhrase(
-      sound: 'sound',
+    Items(
+      sound: '4.wav',
       enName: 'Do you play sports?',
       jpName: 'upōtsu wo shimasu ka?',
     ),
-    ItemsPhrase(
-      sound: 'sound',
+    Items(
+      sound: '5.wav',
       enName: 'Nice to meet you.',
       jpName: 'Hajimemashite',
     ),

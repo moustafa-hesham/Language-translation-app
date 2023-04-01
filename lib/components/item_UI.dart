@@ -18,7 +18,7 @@ class ItemUI extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            child: Image.asset(number.image),
+            child: Image.asset(number.image!),
             color: const Color(0xFFfff6dc),
           ),
           Padding(
